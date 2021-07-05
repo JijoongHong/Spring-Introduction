@@ -11,7 +11,7 @@ public class MemberService {
     //test 할 때 cmd shift t
     private final MemberRepository memberRepository;
 
-    public MemberService(MemberRepository memberRepository){
+    public MemberService(MemoryMemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }
 
